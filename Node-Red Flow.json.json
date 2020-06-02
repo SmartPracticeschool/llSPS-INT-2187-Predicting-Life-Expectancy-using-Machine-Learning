@@ -1,0 +1,470 @@
+[
+    {
+        "id": "a1e8fade.b01388",
+        "type": "tab",
+        "label": "Life Expectancy",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "2271d126.d77c5e",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#a82058",
+                "baseFont": "Courier,monospace",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#a82058",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#a82058",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#000000",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#da3b7c",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#a82058",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "Courier,monospace"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "true",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "ee5f6c2b.26429",
+        "type": "ui_group",
+        "z": "",
+        "name": "Machine Learning Model",
+        "tab": "5cbb695.f243498",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "5cbb695.f243498",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Home Page",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "ce70e9a0.f85188",
+        "type": "ui_group",
+        "z": "",
+        "name": "Default",
+        "tab": "64bdf827.a0c4c8",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "64bdf827.a0c4c8",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e2401213.c73ab",
+        "type": "ui_form",
+        "z": "a1e8fade.b01388",
+        "name": "Predicting Life Expectancy",
+        "label": "Inputs",
+        "group": "ee5f6c2b.26429",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Year",
+                "value": "a",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Adult Mortality",
+                "value": "b",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Infant Deaths",
+                "value": "c",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Alcohol",
+                "value": "d",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Percentage Expenditure",
+                "value": "e",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Hepatitis B",
+                "value": "f",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Measles",
+                "value": "g",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "BMI",
+                "value": "h",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Under five deaths",
+                "value": "i",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Polio",
+                "value": "j",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Total Expenditure",
+                "value": "k",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Diphtheria",
+                "value": "l",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "HIV/AIDS",
+                "value": "m",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "GDP",
+                "value": "n",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Population",
+                "value": "o",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "thinness  1-19 years",
+                "value": "p",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "thinness 5-9 years",
+                "value": "q",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Income composition of resources",
+                "value": "r",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Schooling",
+                "value": "s",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Developing",
+                "value": "t",
+                "type": "switch",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": "",
+            "e": "",
+            "f": "",
+            "g": "",
+            "h": "",
+            "i": "",
+            "j": "",
+            "k": "",
+            "l": "",
+            "m": "",
+            "n": "",
+            "o": "",
+            "p": "",
+            "q": "",
+            "r": "",
+            "s": "",
+            "t": false
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "",
+        "x": 244,
+        "y": 287,
+        "wires": [
+            [
+                "4db4f155.30976"
+            ]
+        ]
+    },
+    {
+        "id": "4db4f155.30976",
+        "type": "function",
+        "z": "a1e8fade.b01388",
+        "name": "Pre Token",
+        "func": "//make user given values as global variables\nglobal.set(\"a\",msg.payload.a);\nglobal.set(\"b\",msg.payload.b);\nglobal.set(\"c\",msg.payload.c);\nglobal.set(\"d\",msg.payload.d);\nglobal.set(\"e\",msg.payload.e);\nglobal.set(\"f\",msg.payload.f);\nglobal.set(\"g\",msg.payload.g);\nglobal.set(\"h\",msg.payload.h);\nglobal.set(\"i\",msg.payload.i);\nglobal.set(\"j\",msg.payload.j);\nglobal.set(\"k\",msg.payload.k);\nglobal.set(\"l\",msg.payload.l);\nglobal.set(\"m\",msg.payload.m);\nglobal.set(\"n\",msg.payload.n);\nglobal.set(\"o\",msg.payload.o);\nglobal.set(\"p\",msg.payload.p);\nglobal.set(\"q\",msg.payload.q);\nglobal.set(\"r\",msg.payload.r);\nglobal.set(\"s\",msg.payload.s);\nglobal.set(\"t\",msg.payload.t);\n\n//following are required to receive a token\nvar apikey=\"mhgBrk-okpDYS95195UCdS0AI94yQtECLyDdEYRyUxUH\";\nmsg.headers={\"content-type\":\"application/x-www-form-urlencoded\"};\nmsg.payload={\"grant_type\":\"urn:ibm:params:oauth:grant-type:apikey\",\"apikey\":apikey};\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 411,
+        "y": 435,
+        "wires": [
+            [
+                "f177f533.f8e678"
+            ]
+        ]
+    },
+    {
+        "id": "9552da75.b78ad8",
+        "type": "http request",
+        "z": "a1e8fade.b01388",
+        "name": "Get access",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": false,
+        "url": "https://eu-gb.ml.cloud.ibm.com/v3/wml_instances/81d37a0a-db09-4256-85a8-d97cb00891ad/deployments/92f6a443-0fb5-448e-a3ff-cdbe080e3f50/online",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 838,
+        "y": 264,
+        "wires": [
+            [
+                "150386ae.bff449",
+                "15b615ae.61188a"
+            ]
+        ]
+    },
+    {
+        "id": "565fc91e.1cbd08",
+        "type": "debug",
+        "z": "a1e8fade.b01388",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 1192,
+        "y": 352,
+        "wires": []
+    },
+    {
+        "id": "15b615ae.61188a",
+        "type": "function",
+        "z": "a1e8fade.b01388",
+        "name": "Get from Endpoint",
+        "func": "msg.payload=msg.payload.values[0][0];\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 983,
+        "y": 433,
+        "wires": [
+            [
+                "565fc91e.1cbd08",
+                "816f921b.b1239"
+            ]
+        ]
+    },
+    {
+        "id": "150386ae.bff449",
+        "type": "debug",
+        "z": "a1e8fade.b01388",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 977,
+        "y": 154,
+        "wires": []
+    },
+    {
+        "id": "7d8168fa.ec75d8",
+        "type": "function",
+        "z": "a1e8fade.b01388",
+        "name": "Send to Endpoint",
+        "func": "//get token and make headers\nvar token=msg.payload.access_token;\nvar instance_id=\"81d37a0a-db09-4256-85a8-d97cb00891ad\"\nmsg.headers={'Content-Type': 'application/json',\"Authorization\":\"Bearer \"+token,\"ML-Instance-ID\":instance_id}\n\n//get variables that are set earlier\nvar a = global.get(\"a\");\nvar b = global.get(\"b\");\nvar c = global.get(\"c\");\nvar d = global.get(\"d\");\nvar e = global.get(\"e\");\nvar f = global.get(\"f\");\nvar g = global.get(\"g\");\nvar h = global.get(\"h\");\nvar i = global.get(\"i\");\nvar j = global.get(\"j\");\nvar k = global.get(\"k\");\nvar l = global.get(\"l\");\nvar m = global.get(\"m\");\nvar n = global.get(\"n\");\nvar o = global.get(\"o\");\nvar p = global.get(\"p\");\nvar q = global.get(\"q\");\nvar r = global.get(\"r\");\nvar s = global.get(\"s\");\nvar t = global.get(\"t\");\n\n//send the user values to service endpoint\nmsg.payload = \n{\"fields\":[\"Year\",\"Adult Mortality\", \"infant deaths\", \"Alcohol\",\n        \"percentage expenditure\", \"Hepatitis B\",\n       \"Measles \", \" BMI \", \"under-five deaths \", \"Polio\", \"Total expenditure\",\n       \"Diphtheria \", \" HIV/AIDS\", \"GDP\", \"Population\",\n       \" thinness  1-19 years\", \" thinness 5-9 years\",\n       \"Income composition of resources\", \"Schooling\",\"Status\"],\n\"values\":[[a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t]]};\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 694,
+        "y": 433,
+        "wires": [
+            [
+                "9552da75.b78ad8"
+            ]
+        ]
+    },
+    {
+        "id": "f177f533.f8e678",
+        "type": "http request",
+        "z": "a1e8fade.b01388",
+        "name": "Get a token",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": false,
+        "url": "https://iam.cloud.ibm.com/identity/token",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "basic",
+        "x": 527,
+        "y": 620,
+        "wires": [
+            [
+                "7d8168fa.ec75d8"
+            ]
+        ]
+    },
+    {
+        "id": "816f921b.b1239",
+        "type": "ui_text",
+        "z": "a1e8fade.b01388",
+        "group": "ee5f6c2b.26429",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "Prediction",
+        "label": "Prediction :",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "x": 1192,
+        "y": 547,
+        "wires": []
+    }
+]
