@@ -2,7 +2,8 @@
 Predicting Life Expectancy using Machine Learning
 
 Node-Red URL : https://node-red-oxjtb.eu-gb.mybluemix.net/ui/#!/0?socketid=xQdJijxEzqbGAYUCAAAE
-Node-Red Flow editior URL : https://node-red-oxjtb.eu-gb.mybluemix.net/red/#flow/a1e8fade.b01388
+
+Node-Red Flow editor URL : https://node-red-oxjtb.eu-gb.mybluemix.net/red/#flow/a1e8fade.b01388
 
 Dataset : https://www.kaggle.com/kumarajarshi/life-expectancy-who
 
