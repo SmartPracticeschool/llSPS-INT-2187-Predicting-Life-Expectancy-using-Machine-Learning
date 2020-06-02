@@ -1,10 +1,6 @@
 # llSPS-INT-2187-Predicting-Life-Expectancy-using-Machine-Learning
 Predicting Life Expectancy using Machine Learning
 
-Node-Red URL : https://node-red-oxjtb.eu-gb.mybluemix.net/ui/#!/0?socketid=xQdJijxEzqbGAYUCAAAE
-
-Node-Red Flow editor URL : https://node-red-oxjtb.eu-gb.mybluemix.net/red/#flow/a1e8fade.b01388
-
 Dataset : https://www.kaggle.com/kumarajarshi/life-expectancy-who
 
 ## Project title: 
